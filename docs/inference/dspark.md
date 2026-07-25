@@ -2,9 +2,10 @@
 layout: default
 title: DSpark - 置信度调度推测解码
 nav_order: 1
-parent: 论文解析
+parent: 推理加速
+grand_parent: 论文笔记
 has_children: false
-permalink: /docs/papers/dspark/
+permalink: /docs/inference/dspark/
 ---
 
 # DSpark: 基于半自回归生成的置信度调度推测解码

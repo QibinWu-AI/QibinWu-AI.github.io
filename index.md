@@ -9,19 +9,20 @@ description: 大语言模型论文解析与技术笔记
 
 大语言模型（LLM）前沿论文的通俗解析与技术笔记。
 
-## 📖 论文解析
+## 📂 五大栏目
 
-| 论文 | 主题 | 关键词 |
+| 栏目 | 内容 | 已解析 |
 |------|------|--------|
-| [DSpark: 置信度调度推测解码](docs/papers/dspark) | 推理加速 | 推测解码、半自回归、置信度调度 |
-| [位置编码演进史](docs/papers/positional-encoding) | 位置编码 | RoPE、ALiBi、绝对/相对位置编码 |
+| 🏗️ [模型结构](docs/model-architecture/) | 注意力机制、位置编码、MoE、架构创新 | 1 篇 |
+| 🔥 [预训练](docs/pretraining/) | 预训练策略、数据工程、Scaling Laws | — |
+| 🎯 [后训练](docs/post-training/) | RLHF、DPO、GRPO、对齐技术 | — |
+| 🌐 [多模态](docs/multimodal/) | VLM、视觉编码器、图文对齐 | — |
+| ⚡ [推理加速](docs/inference/) | 推测解码、量化、KV 缓存、服务优化 | 1 篇 |
 
-## 🔧 技术领域
+## 📖 最新解析
 
-- **Transformer 架构**：注意力机制、位置编码、MoE、上下文长度扩展
-- **训练技术**：RLHF/DPO、预训练策略、数据筛选、Scaling Laws
-- **推理优化**：量化、剪枝、蒸馏、推测解码、KV 缓存优化
-- **视觉语言**：多模态融合、视觉编码器、图文对齐
+- **[DSpark: 置信度调度推测解码](docs/inference/dspark/)** — DeepSeek 推理加速框架，半自回归生成 + 置信度调度验证，线上提速 60%-85%
+- **[位置编码演进史](docs/model-architecture/positional-encoding/)** — 从绝对编码到 RoPE、ALiBi、CoPE 的五代演进
 
 ## 📌 关于
 

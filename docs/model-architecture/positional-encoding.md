@@ -1,10 +1,11 @@
 ---
 layout: default
 title: 位置编码演进史
-nav_order: 2
-parent: 论文解析
+nav_order: 1
+parent: 模型结构
+grand_parent: 论文笔记
 has_children: false
-permalink: /docs/papers/positional-encoding/
+permalink: /docs/model-architecture/positional-encoding/
 ---
 
 # 位置编码演进史：从"给词编号"到"旋转空间"
