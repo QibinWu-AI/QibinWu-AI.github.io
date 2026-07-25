@@ -1,0 +1,54 @@
+title: LLM Paper Notes
+description: 大语言模型论文解析与技术笔记
+url: "https://qibinwu-ai.github.io"
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+search_enabled: true
+search:
+  button: true
+  heading_level: 2
+  previews: true
+  preview_words_before: 5
+  preview_words_after: 10
+
+# 中文支持
+locale: "zh-CN"
+
+# 导航
+nav_external_links:
+  - title: GitHub
+    url: https://github.com/QibinWu-AI
+
+# 页面默认配置
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
+      search: true
+
+# Markdown 配置
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+
+# 插件
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-default-layout
+
+# Just the Docs 主题配置
+callouts:
+  important:
+    title: 重要
+    color: blue
+  note:
+    title: 注意
+    color: green
+  warning:
+    title: 警告
+    color: red
