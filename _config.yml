@@ -33,13 +33,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  math_engine: mathjax
 
-# 插件
+# 插件（GitHub Actions 构建支持）
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-default-layout
+  - jekyll-feed
 
 # Just the Docs 主题配置
 callouts:
